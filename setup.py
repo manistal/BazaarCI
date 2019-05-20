@@ -17,5 +17,6 @@ setup(
     packages=[
         'bazaarci',
         'bazaarci.runner',
+        'bazaarci.server',
     ],
 )
