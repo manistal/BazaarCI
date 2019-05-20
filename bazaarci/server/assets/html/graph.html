@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--link rel="stylesheet" href="{{ ASSET_URL }}"-->
+        <title>BazaarCI</title>
+    </head>
+    <body>
+        <!-- Banner Section -->
+        <div>
+            <h2>BazaarCI</h2>
+        </div>
+
+        <!-- Display Section -->
+        <div id="graph" style="text-align: center;"></div>
+
+    </body>
+
+    <!--script type="text/javascript" src="{{ ASSET_URL }}"></script-->
+    <script src="//d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/viz.js@1.8.0/viz.js" type="javascript/worker"></script>
+    <script src="https://unpkg.com/d3-graphviz@1.3.1/build/d3-graphviz.min.js"></script>
+    <script src="{{ url_for('static', filename="js/gvd3demo.js")}}"></script>
+</html>
